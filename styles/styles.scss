@@ -1,3 +1,4 @@
+// reset styles
 * {
   box-sizing: border-box;
   border: 0;
@@ -5,25 +6,28 @@
   margin: 0;
 }
 
+// container styles
 .container {
   text-align: center;
-  margin-top:5%;
-//   background-color: aquamarine;
+  margin-top: 5%;
+
+  //   color box styling
   #color-box {
     margin: 5% 44%;
     width: 150px;
     height: 150px;
     background-color: rgb(19, 213, 213);
-    }
-    #change-color-btn{
-        padding: 20px 10px;
-        background-color: black;
-        color: greenyellow;
-        font-weight: 800;
-        border-radius: 20px;
-        
-    }
-    #change-color-btn:hover{
-        color: white;
-    }
+  }
+
+  //   button styles
+  #change-color-btn {
+    padding: 20px 10px;
+    background-color: black;
+    color: greenyellow;
+    font-weight: 800;
+    border-radius: 20px;
+  }
+  #change-color-btn:hover {
+    color: white;
+  }
 }
